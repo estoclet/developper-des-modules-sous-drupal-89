@@ -10,6 +10,8 @@ drupal:
     password: "drupal"
   post_install:
     - "./vendor/bin/drush en devel_entity_updates -y"
+    - "./vendor/bin/drush en admin_toolbar -y"
+    - "./vendor/bin/drush en admin_toolbar_tools -y"
     - "./vendor/bin/drush cr"
   settings:
     settings:
@@ -24,7 +26,7 @@ selenium:
 
 commands:
   drupal:module-setup:
-    - { task: "symlink", from: "../../../cours/${chapitre}", to: "${drupal.root}/modules/custom/packt" }
+    - { task: "symlink", from: "../../../cours/${chapitre}", to: "${drupal.root}/modules/custom/cours" }
   drupal:site-setup:
     - { task: "run", command: "drupal:settings-setup" }
     - { task: "run", command: "setup:phpunit" }
