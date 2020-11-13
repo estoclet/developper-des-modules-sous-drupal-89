@@ -12,6 +12,7 @@ drupal:
     - "./vendor/bin/drush en devel_entity_updates -y"
     - "./vendor/bin/drush en admin_toolbar -y"
     - "./vendor/bin/drush en admin_toolbar_tools -y"
+    - "./vendor/bin/drush en hello_world -y"
     - "./vendor/bin/drush cr"
   settings:
     settings:
