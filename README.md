@@ -2,9 +2,9 @@
 
 Voici le dépôt de codes pour le cours ["Développer des modules sous Drupal 8/9"](http://monpotedev.fr/tutos/developper-des-modules-sous-drupal-89).
 
-**Soyez opérationnel en créant de puissants modules et applications Drupal**
+**Soyez opérationnel en créant de puissants modules Drupal**
 
-## Quel est le sujet de ce livre?
+## Quel est le sujet de ce cours ?
 Avec sa dernière version, Drupal 9, la célèbre plateforme de CMS open source a été mise à jour avec de nouvelles fonctionnalités permettant de créer facilement des applications Drupal complexes. Ce cours couvre ces nouvelles fonctionnalités de Drupal, vous aidant à rester au courant des déprédations du code et de l'architecture changeante à chaque version.
 
 Ce cours couvre les aspects suivants : 
