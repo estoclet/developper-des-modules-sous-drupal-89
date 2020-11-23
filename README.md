@@ -7,7 +7,7 @@ Voici le dépôt de codes pour le cours ["Développer des modules sous Drupal 8/
 ## Quel est le sujet de ce cours ?
 Avec sa dernière version, Drupal 9, la célèbre plateforme de CMS open source a été mise à jour avec de nouvelles fonctionnalités permettant de créer facilement des applications Drupal complexes. Ce cours couvre ces nouvelles fonctionnalités de Drupal, vous aidant à rester au courant des déprédations du code et de l'architecture changeante à chaque version.
 
-Ce cours couvre les aspects suivants : 
+Ce cours couvre les aspects suivants :
 * Développer des modules Drupal 9 personnalisés pour vos applications
 * Maîtriser les différents sous-systèmes et API de Drupal 9
 * Modéliser, stocker, manipuler et traiter les données pour une gestion efficace des données
@@ -48,6 +48,7 @@ Pour mettre en place un environnement de développement local, procédez comme s
 1. Exécutez les commandes suivantes :
 
 ```
+$ docker stop $(docker ps -a -q)
 $ docker-compose up -d
 $ docker-compose exec php composer install
 $ docker-compose exec php ./vendor/bin/run drupal:site-install
